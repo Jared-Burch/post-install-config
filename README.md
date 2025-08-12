@@ -29,12 +29,12 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 
-<img width="771" height="593" alt="image" src="https://github.com/user-attachments/assets/2088fe23-b61b-43ec-90cf-96a96e90b6a8" 
+<img width="771" height="593" alt="image" src="https://github.com/user-attachments/assets/2088fe23-b61b-43ec-90cf-96a96e90b6a8" >
 
 First I logged into the osTicket admin webpage and then switched to the admin pannel. Then clicked "Agents"-"Roles"-"Add New Role" and created a new role. I named the new role "Super Admin" and checked all of the boxes under "Tickets", "Tasks", and "Knowledgebase".
 
 
-<img width="482" height="598" alt="image" src="https://github.com/user-attachments/assets/2036282b-e7ac-4249-bfd2-d176e874128a" 
+<img width="482" height="598" alt="image" src="https://github.com/user-attachments/assets/2036282b-e7ac-4249-bfd2-d176e874128a" >
 
 Then under "Agents"-"Departments" I created a new department named "Sysadmin"
 
