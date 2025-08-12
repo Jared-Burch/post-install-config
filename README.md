@@ -6,9 +6,6 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -30,15 +27,15 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<img width="964" height="453" alt="image" src="https://github.com/user-attachments/assets/86be328e-d0f9-46b4-8b85-e983b73e1c4f" />
 
-<p>
+First I logged into the osTicket admin page and created a new role by switching to admin panel and clickicking "Agents"-"Roles"-"Add New Role". I named it "Super Admin" and checked all of the boxes under "tickets","Tasks", and "knowledgebase".
+
+<img width="482" height="598" alt="image" src="https://github.com/user-attachments/assets/b0a5f768-a12d-45ad-ae7c-f17b3b8ed2f6" />
+
+Then under "Agents" I clicked "Departments" and created a new department named "Sysadmin"
+
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
