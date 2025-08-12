@@ -6,9 +6,7 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -30,18 +28,17 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+<img width="771" height="593" alt="image" src="https://github.com/user-attachments/assets/2088fe23-b61b-43ec-90cf-96a96e90b6a8" 
+
+First I logged into the osTicket admin webpage and then switched to the admin pannel. Then clicked "Agents"-"Roles"-"Add New Role" and created a new role. I named the new role "Super Admin" and checked all of the boxes under "Tickets", "Tasks", and "Knowledgebase".
+
+
+<img width="482" height="598" alt="image" src="https://github.com/user-attachments/assets/2036282b-e7ac-4249-bfd2-d176e874128a" 
+
+Then under "Agents"-"Departments" I created a new department named "Sysadmin"
+
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
