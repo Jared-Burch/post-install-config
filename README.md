@@ -20,11 +20,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create Agents in osTicket
+- Create and assign Roles, Teams, and Departments
+- Create Users
+- Create SLA's (Service Level Agreements)
+- Create Help Topics
 
 <h2>Configuration Steps</h2>
 
@@ -61,20 +61,66 @@ I assigned Jane to the sysadmin department with the "supreme admin" role that we
 
 
 <img width="754" height="610" alt="image" src="https://github.com/user-attachments/assets/d7f61337-cdb7-4207-a747-b551beecf556" />
+
+
 <img width="697" height="689" alt="image" src="https://github.com/user-attachments/assets/7c962c2c-4768-4dc7-b39a-bea63a104d14" />
+
+
 
 I also created an agent named John Doe and added him to the support department with the view only role and clicked "create". username for this agent is "John" and password is "Password1!"
 
+
 <img width="817" height="573" alt="image" src="https://github.com/user-attachments/assets/4fe444d9-c6a3-4ea2-b3ff-2c76ff4fc3bf" />
 
-Next, I went to the agent pannel in the top right of the screen and created a new user named "Kared
+
+
+Next, I went to the agent pannel in the top right of the screen and created a new user named "Karen"
+
+
+<img width="768" height="543" alt="image" src="https://github.com/user-attachments/assets/8f86210f-db56-40a1-80bc-93400f00006c" />
+
+
+Then I switched back to the admin pannel and clicked the "Manage" tab then "SLA" (Service Level Agreement) and created a new SLA named "SEV-A" with a 1 hour grace period on a 24/7 schedule.
+
+
+<img width="768" height="541" alt="image" src="https://github.com/user-attachments/assets/c6ada10d-284e-4b2d-8c32-1c3f1cc70645" />
+
+I created another SLA named "SEV-B" with a 4 hour grace period on a 24/7 schedule
 
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<img width="768" height="555" alt="image" src="https://github.com/user-attachments/assets/84e2788c-edd5-4c04-9c76-0270ce54bad4" />
+
+
+I made one last SLA named "SEV-C" with an 8 hour grace period on a business hour schedule (Mon-Fri 8-5)
+
+
+
+<img width="770" height="545" alt="image" src="https://github.com/user-attachments/assets/854d6f2e-50a8-44f3-8e7c-204be7309955" />
+
+Next I went to "Help Topics" and created a new help topic called "Business Critical Outage" and listed the parent topic as "Report a Problem".
+
+
+<img width="782" height="575" alt="image" src="https://github.com/user-attachments/assets/0f30c306-c062-4f9e-b18f-9c2068790282" />
+
+I made another help topic named "Personal Computer Issues" and made the parent topic "Report a Problem".
+
+
+<img width="769" height="545" alt="image" src="https://github.com/user-attachments/assets/9092a6d0-aea8-4716-b687-4f8becb94c7a" />
+
+Then I made a help topic named "Equipment Request" with the parent topic as "General Inquiry".
+
+<img width="777" height="550" alt="image" src="https://github.com/user-attachments/assets/ecad8644-1741-4122-bb39-735d97f43368" />
+
+I made another help topic and named it "Password Reset" with the parent topic as "Report a Problem".
+
+
+<img width="796" height="552" alt="image" src="https://github.com/user-attachments/assets/0bb68196-1ebe-4268-ae79-c35d28d9a38f" />
+
+
+Then I made one more help topic and named it "Other" with the parent topic as "General Inquiry"
+
+
+Now we have completed the post installation steps for osTicket and are ready to use the software to create and resolve tickets.
+
+
